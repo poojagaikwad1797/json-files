@@ -1,0 +1,474 @@
+var treeData=
+  {
+	"name": "Database types",
+	"children": [{
+			"name": "Based on Data storage in DB",
+			"type": "PCAT",
+			"children": [{
+					"name": "SQL",
+					"type": "CCAT",
+					"children": [{
+							"name": "Data is stored in the form of tables"
+						},
+						{
+							"name": "Most widely used type of Database"
+						},
+						{
+							"name": "Oracle SQL, MySQL, Microsoft SQL Server are examples "
+						}
+					]
+				},
+				{
+					"name": "NoSQL",
+					"type": "CCAT",
+					"children": [{
+							"name": "Key Features",
+							"children": [{
+									"name": "The Data is not stored in the form of Tables"
+								},
+								{
+									"name": "Overcomes the challenges of RDBMS"
+								},
+								{
+									"name": "Preferred in modern Digital Applications"
+								}
+							]
+						},
+						{
+							"name": "Types",
+							"children": [{
+									"name": "Document Oriented",
+									"children": [{
+											"name": "Data is stored in JSON or document format"
+										},
+										{
+											"name": "MongDB is an example"
+										}
+									]
+								},
+								{
+									"name": "Key Value pair",
+									"children": [{
+											"name": "Data is stored in the form of key-value pair"
+										},
+										{
+											"name": "RiakDB is an example"
+										}
+									]
+								},
+								{
+									"name": "Graph Oriented",
+									"children": [{
+											"name": "Data is stored in the form of a Graph"
+										},
+										{
+											"name": "Data is stored in the form of nodes and is connected via edges."
+										},
+										{
+											"name": "widely used in Social Media apps as it betters maps the real world in DBl"
+										},
+										{
+											"name": "Neo4j is an example"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "In-memory",
+					"type": "CCAT",
+					"children": [{
+							"name": "The Data is stored in memory"
+						},
+						{
+							"name": "Could use RDBMS or NoSQl approach to store data"
+						},
+						{
+							"name": "Widely used in Browser, Mobile apps, Embedded software"
+						},
+						{
+							"name": "Sqlite is a in-memory RDBMS DB"
+						},
+						{
+							"name": "RiakDB is an in-memory NoSQL Key-value pair DB"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Based on how Data is distributed",
+			"type": "PCAT",
+			"children": [{
+					"name": "Distributed",
+					"type": "CCAT",
+					"children": [{
+							"name": "The Database is spread across multiple servers(clusters) horizontally"
+						},
+						{
+							"name": "Widley used type in Big Data processing, Microservices"
+						}
+					]
+				},
+				{
+					"name": "Centralized",
+					"type": "CCAT",
+					"children": [{
+							"name": "The complete DB is on a server"
+						},
+						{
+							"name": "This is the traditional DB compute design and is widely used"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Based on Usage",
+			"type": "PCAT",
+			"children": [{
+					"name": "Transactional Data",
+					"type": "CCAT",
+					"children": [{
+							"name": "Also known as OLTP - Online Transaction processing"
+						},
+						{
+							"name": "Used to store application data and transactions data"
+						},
+						{
+							"name": "MySQL, MongoDB, Oracle SQL are examples"
+						}
+					]
+				},
+				{
+					"name": "Aggregated Data",
+					"type": "CCAT",
+					"children": [{
+							"name": "Part of OLAP - Online Analytical processing"
+						},
+						{
+							"name": "Used in Datawarehouse"
+						},
+						{
+							"name": "The OLTP data is aggregated form and is used by OLAP applications"
+						},
+						{
+							"name": "TeraData, Informatica, SAS are examples"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Commonly used Databases ",
+			"type": "PCAT",
+			"children": [{
+					"name": "Oracle SQL",
+					"type": "CCAT",
+					"children": [{
+						"name": "Details",
+						"children": [{
+								"name": "One of the most widely used RDBMS"
+							},
+							{
+								"name": "Key Aspects",
+								"type": "data",
+								"children": [{
+										"name": "DB Query methods",
+										"children": [{
+												"name": "Using SQL query"
+											},
+											{
+												"name": "Programatically - Using DB drivers"
+											},
+											{
+												"name": "PL SQL is a programming language and is used for queries that are procedural in nature"
+											}
+										]
+									},
+									{
+										"name": "DB Type",
+										"children": [{
+											"name": "SQL or RDBMS type DB"
+										}]
+									}
+								]
+							}
+						]
+					}]
+				},
+				{
+					"name": "MS SQL Server",
+					"type": "CCAT",
+					"children": [{
+						"name": "Details",
+						"children": [{
+								"name": "Microsoft Product and is widely used DB technology"
+							},
+							{
+								"name": "Key Aspects",
+								"type": "data",
+								"children": [{
+										"name": "DB Query methods",
+										"children": [{
+												"name": "Using SQL query"
+											},
+											{
+												"name": "Programatically - Using DB drivers"
+											},
+											{
+												"  name": "T-SQL is a programming language and is used for queries that are procedural in nature"
+											}
+										]
+									},
+									{
+										"name": "DB Type",
+										"children": [{
+											"name": "SQL or RDBMS type DB"
+										}]
+									}
+								]
+							}
+						]
+					}]
+				},
+				{
+					"name": "MySQL",
+					"type": "CCAT",
+					"children": [{
+						"name": "Details",
+						"children": [{
+								"name": "OpenSource DB, widely used. Part of LAMP web technologies stack"
+							},
+							{
+								"name": "Key Aspects",
+								"type": "data",
+								"children": [{
+										"name": "DB Query methods",
+										"children": [{
+												"name": "Using SQL query"
+											},
+											{
+												"name": "Programatically - Using DB drivers"
+											},
+											{
+												"name": "PL SQL is a programming language and is used for queries that are procedural in nature"
+											}
+										]
+									},
+									{
+										"name": "DB Type",
+										"children": [{
+											"name": "SQL or RDBMS type DB"
+										}]
+									}
+								]
+							}
+						]
+					}]
+				},
+				{
+					"name": "MongoDB",
+					"type": "CCAT",
+					"children": [{
+						"name": "Details",
+						"children": [{
+								"name": "Opensource DB"
+							},
+							{
+								"name": "Key Aspects",
+								"type": "data",
+								"children": [{
+										"name": "DB Query methods",
+										"children": [{
+												"name": "Using MongoDB Query language"
+											},
+											{
+												"name": "Programatically - Using DB drivers"
+											}
+										]
+									},
+									{
+										"name": "DB Type",
+										"children": [{
+												"name": "Distributed, NoSQL, Document based"
+											},
+											{
+												"name": "Data is stored in JSON like documents "
+											}
+										]
+									}
+								]
+							}
+						]
+					}]
+				},
+				{
+					"name": "PostpreSQL",
+					"type": "CCAT",
+					"children": [{
+						"name": "Details",
+						"children": [{
+								"name": "Opensource DB, widely used in modern applications"
+							},
+							{
+								"name": "Key Aspects",
+								"type": "data",
+								"children": [{
+										"name": "DB Query methods",
+										"children": [{
+											"name": "Programatically - Using DB drivers"
+										}]
+									},
+									{
+										"name": "DB Type",
+										"children": [{
+											"name": "SQL or RDBMS type"
+										}]
+									}
+								]
+							}
+						]
+					}]
+				},
+				{
+					"name": "Riak KV DB",
+					"type": "CCAT",
+					"children": [{
+						"name": "Details",
+						"children": [{
+								"name": "Distributed, NoSQL DB"
+							},
+							{
+								"name": "Key Aspects",
+								"type": "data",
+								"children": [{
+										"name": "DB Query methods",
+										"children": [{
+											"name": "Programatically - Using DB drivers/connectors"
+										}]
+									},
+									{
+										"name": "DB Type",
+										"children": [{
+											"name": "NoSQL, Data is stored in Key-Value pair"
+										}]
+									}
+								]
+							}
+						]
+					}]
+				},
+				{
+					"name": "Hbase",
+					"type": "CCAT",
+					"children": [{
+						"name": "Details",
+						"children": [{
+								"name": "Opensource, Distributed DB, specifically used in Big Data use cases"
+							},
+							{
+								"name": "Key Aspects",
+								"type": "data",
+								"children": [{
+										"name": "DB Query methods",
+										"children": [{
+												"name": "Programatically - Using Java API"
+											},
+											{
+												"name": "Using jruby-based (JIRB) shell"
+											}
+										]
+									},
+									{
+										"name": "DB Type",
+										"children": [{
+												"name": "NoSQL DB, Uses HDFS and Hadoop"
+											},
+											{
+												"name": "Used to execute random,realtime read/write access on Big Data"
+											}
+										]
+									}
+								]
+							}
+						]
+					}]
+				},
+				{
+					"name": "Sqlite",
+					"type": "CCAT",
+					"children": [{
+						"name": "Details",
+						"children": [{
+								"name": "Opensource DB, Widely used in Browser, mobile apps, Embedded software"
+							},
+							{
+								"name": "Key Aspects",
+								"type": "data",
+								"children": [{
+										"name": "DB Query methods",
+										"children": [{
+												"name": "Programatically - Using  API"
+											},
+											{
+												"name": "Using SQL"
+											}
+										]
+									},
+									{
+										"name": "DB Type",
+										"children": [{
+												"name": "RDBMS, In-memory DB"
+											},
+											{
+												"name": "contained in a C library. And is embedded into the end program"
+											}
+										]
+									}
+								]
+							}
+						]
+					}]
+				},
+				{
+					"name": " Neo4j",
+					"type": "CCAT",
+					"children": [{
+						"name": "Details",
+						"children": [{
+								"name": "Opensource DB, Gaining Traction in modern applications"
+							},
+							{
+								"name": "Key Aspects",
+								"type": "data",
+								"children": [{
+										"name": "DB Query methods",
+										"children": [{
+												"name": "Programatically - Using  API"
+											},
+											{
+												"name": "Using Cypher"
+											}
+										]
+									},
+									{
+										"name": "DB Type",
+										"children": [{
+											"name": "NoSQL, Graph oriented"
+										}]
+									}
+								]
+							}
+						]
+					}]
+				}
+			]
+		}
+	]
+}
+
+
+;
